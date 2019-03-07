@@ -1,16 +1,16 @@
 ﻿spring: 
  profiles: 
    active: 
-     dev
+     - dev
 
 spring: 
-  profiles: dev   #开发环境
+  profiles: dev  #开发环境
     application: 
-	  name: mainservicecloud-config-dev
+      name: mainservicecloud-config-dev
 	  
 spring: 
-  profiles: test  #测试环境
+  profiles: test   #测试环境
     application: 
-	  name: mainservicecloud-config-test
+      name: mainservicecloud-config-test
 	  
-	  #请保存为UTF-8格式
+       #请保存为UTF-8格式
